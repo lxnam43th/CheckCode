@@ -22,3 +22,7 @@ D:\WORKING\Dev\Daily\Code\Dailycheck\GenerateQCDailyInformationConsole.root\Gene
 D:\WORKING\Dev\Daily\Code\Dailycheck\GenerateQCDailyInformationConsole.root\GenerateQCDailyInformationConsole\GenerateQCDailyInformationConsole\obj\x86\Debug\GenerateQCDailyInformationConsole.Resources.resources
 D:\WORKING\Dev\Daily\Code\Dailycheck\GenerateQCDailyInformationConsole.root\GenerateQCDailyInformationConsole\GenerateQCDailyInformationConsole\obj\x86\Debug\GenerateQCDailyInformationConsole.vbproj.GenerateResource.Cache
 D:\WORKING\Dev\Daily\Code\Dailycheck\GenerateQCDailyInformationConsole.root\GenerateQCDailyInformationConsole\GenerateQCDailyInformationConsole\obj\x86\Debug\GenerateQCDailyInformationConsole.exe.licenses
+D:\Nam\Learn\New_git\CheckCode\GenerateQCDailyInformationConsole\bin\Debug\GenerateQCDailyInformationConsole.exe.config
+D:\Nam\Learn\New_git\CheckCode\GenerateQCDailyInformationConsole\obj\x86\Debug\GenerateQCDailyInformationConsole.exe
+D:\Nam\Learn\New_git\CheckCode\GenerateQCDailyInformationConsole\obj\x86\Debug\GenerateQCDailyInformationConsole.xml
+D:\Nam\Learn\New_git\CheckCode\GenerateQCDailyInformationConsole\obj\x86\Debug\GenerateQCDailyInformationConsole.pdb
