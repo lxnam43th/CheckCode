@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GenerateQCDailyInformationConsole
+</name>
+</assembly>
+<members>
+<member name="M:GenerateQCDailyInformationConsole.QCEmail.LoadShippingItem">
+ -----------------------------------------------------------------------------
+ <summary>
+ Load all shipping item -- hien tai co HAL, NHA, SAP
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[dmquyen]	07/26/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:GenerateQCDailyInformationConsole.QCEmail.LoadSection(System.String,System.Int32)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Load section by shipping item
+ </summary>
+	<param name="strShippingOID"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[dmquyen]	7/1/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:GenerateQCDailyInformationConsole.QCEmail.DrawingForEachSPItem(System.String,System.String,System.String,System.Int32,System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+ drawing trend for each Shipping Item
+ </summary>
+	<param name="ShippingItemOID"></param>
+	<param name="dateView"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[dmquyen]	07/26/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+For run
+
+</member><member name="P:GenerateQCDailyInformationConsole.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GenerateQCDailyInformationConsole.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GenerateQCDailyInformationConsole.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

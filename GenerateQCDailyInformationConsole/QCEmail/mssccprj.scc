@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[QCEmail.vbproj]
+SCC_Aux_Path = "\\172.25.9.48\Source Control\ProductionSystem"
+SCC_Project_Name = "$/GDIS_V3/GDIS_QC/Services/QCDailyInformationGenerate/SourceCode/GenerateQCDailyInformationConsole.root/GenerateQCDailyInformationConsole/GenerateQCDailyInformationConsole/QCEmail", GHDXAAAA

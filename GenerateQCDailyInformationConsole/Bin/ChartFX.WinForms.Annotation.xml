@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>ChartFX.WinForms.Annotation</name>
+  </assembly>
+  <members>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationArrow.EndCap">
+      <summary>Allows you to control the ending arrow head height, width and style of a selected annotation arrow object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationArrow.StartCap">
+      <summary>Allows you to control the starting arrow head height, width and style of a selected annotation arrow object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.ArrowCap">
+      <summary>Allows you to control the arrow head height, width and style when used with the annotation balloon object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.ArrowFactor">
+      <summary>Used to get or set the annotation balloon tip size.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.ArrowX">
+      <summary>Sets the X coordinate value for the balloon tip when set to be an arrow.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.ArrowY">
+      <summary>Sets the Y coordinate value for the balloon tip when set to be an arrow.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.Radius">
+      <summary>Used to set the radius for a selected balloon annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.Shadow">
+      <summary>Allows you to set a shadow for balloon annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.TailCorner">
+      <summary>Gets or sets the corner of the balloon the tip or arrow.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationBalloon.UseArrow">
+      <summary>Instructs Chart FX to use an arrow instead of the balloon tip.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationGroup.Border">
+      <summary>Allows you to apply border attributes to a selected annotation group.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationGroup.Color">
+      <summary>Sets the inside fill color for the objects included in an annotation group.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationGroup.List">
+      <summary>Allows you to access the CollectionBase members used modify the annotation group.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationGroup.Pattern">
+      <summary>Used to set a pattern style for a group of annotation objects.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationGroup.RecalcBounds">
+      <summary>Used to recalculate the bounding rectangle for a group of objects.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationListBase.Item">
+      <summary>Allows you to select and assign attributes directly to a specific annotation list item.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.Add(ChartFX.WebForms.Annotation.AnnotationObject)">
+      <summary>Used to add an object to the end of an annotation group or to the entire annotation objects list.</summary>
+      <param name="annObj">Annotation object to add.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.Contains(ChartFX.WebForms.Annotation.AnnotationObject)">
+      <summary>Determines whether an annotation list or group contains a specific element.</summary>
+      <param name="annObj">The annotation object to locate in the Collection.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.CopyTo(ChartFX.WebForms.Annotation.AnnotationObject[],System.Int32)">
+      <summary>Copies the elements of this collection into the specified array.</summary>
+      <param name="array">The array to copy data to. </param>
+      <param name="index">The count of elements to copy.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.HitTest(System.Drawing.Point,ChartFX.WebForms.Annotation.HitFlag)">
+      <summary>Allows you to simulate a mouse click in a particular x,y position in the chart and returns a flag specifying the hit type.</summary>
+      <param name="ptMouse">X,Y pixel coordinate in the chart to simulate mouse click.</param>
+      <param name="lpwHitState">Returned flag specifying the hit type.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.IndexOf(ChartFX.WebForms.Annotation.AnnotationObject)">
+      <summary>Returns the zero based index of a specific item in a list.</summary>
+      <param name="annObject">Annotation object to determine the index of.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.Insert(System.Int32,ChartFX.WebForms.Annotation.AnnotationObject)">
+      <summary>Inserts an element into the selected annotation collection at the specified index.</summary>
+      <param name="index">Collection index to insert annotation object.</param>
+      <param name="annObj">Annotation object to insert.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationListBase.Remove(ChartFX.WebForms.Annotation.AnnotationObject)">
+      <summary>Removes the first occurrence of a specified annotation object from the selected collection.</summary>
+      <param name="annObj">Annotation object to remove.</param>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.AllowModify">
+      <summary>Used to allow or prevent the user from changing object attributes from the User Interface.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.AllowMove">
+      <summary>Used to allow or prevent the user from moving an annotation object in the chart area.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Anchor">
+      <summary>Gets or sets the Anchor style for the AnnotationObject.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Border">
+      <summary>Allows you to apply border attributes to a selected annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Color">
+      <summary>Sets the inside fill color for annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Height">
+      <summary>Gets or Sets the height in pixels for the selected annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Left">
+      <summary>Allows you to specify or read the left position of a selected annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Link">
+      <summary>Gets the Link object for a selected AnnotationObject item.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.ObjectBounds">
+      <summary>Allows you to specify the bounds for a selected annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.PaintBefore">
+      <summary>Configures the selected annotation object to paint before the rest of the chart elements.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Pattern">
+      <summary>Allows you to set a pattern for the selected annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.PlotAreaOnly">
+      <summary>Gets or sets a value specifying if annotation objects will be drawn outside the plot area.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Tag">
+      <summary>Allows you to get or set a unique identifier to the objects you have created in the chart area.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Top">
+      <summary>Allows you to specify or read the top position of a selected annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Visible">
+      <summary>Used to show or hide a selected annotation object in the chart area.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationObject.Width">
+      <summary>Gets or Sets the Width in pixels for the selected annotation object.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Attach(System.Double,System.Double)">
+      <summary>Attaches the annotation object to the chart relative to X and Y Axis values.</summary>
+      <param name="dx">X Axis coordinate value.</param>
+      <param name="dy">Y Axis coordinate value.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Attach(System.Double,System.Double,System.Double,System.Double)">
+      <summary>Attaches the annotation object to the chart relative to X and Y Axis values.</summary>
+      <param name="dxLeft">Left X Axis coordinate value.</param>
+      <param name="dyTop">Top Y Axis coordinate value.</param>
+      <param name="dxRight">Right X Axis coordinate value.</param>
+      <param name="dyBottom">Bottom Y Axis coordinate value.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Attach(System.Drawing.StringAlignment,System.Double,System.Drawing.StringAlignment,System.Double)">
+      <summary>Attaches the annotation object to the chart relative to X and Y Axis values.</summary>
+      <param name="horizontalAlignment">Horizontal string alignment.</param>
+      <param name="dx">X Axis coordinate value.</param>
+      <param name="verticalAlignment">Vertical string alignment.</param>
+      <param name="dy">Y Axis coordinate value.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Detach">
+      <summary>Detaches the selected annotation object from the chart.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Dispose">
+      <summary>Releases all resources used by the current instance of a selected object.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Flip(System.Boolean)">
+      <summary>Allows you to flip an object horizontally or vertically.</summary>
+      <param name="horizontal">Specifies horizontal or vertical flip.</param>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Refresh">
+      <summary>Instructs Chart FX to repaint the selected annotation object.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationObject.Rotate(System.Boolean)">
+      <summary>Allows you to rotate an object 90 degrees clockwise or counterclockwise.</summary>
+      <param name="clockWise">Boolean specifying rotation direction.</param>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationPicture.Mode">
+      <summary>Sets the rendering style for the image used as the annotation picture.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationPicture.Picture">
+      <summary>Allows you to set the image for an annotation picture object.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationPicture.SizeToFit">
+      <summary>Instructs Chart FX to resize a selected annotation picture object to fit the configured image.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationPolygon.Closed">
+      <summary>Instructs Chart FX to draw a line from the beginning vertex to the ending vertex.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationPolygon.NumVertex">
+      <summary>Allows you to read the number of vertices associated with an annotation polygon object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationPolygon.Vertices">
+      <summary>Used to set the vertices for an annotation polygon object.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationPolygon.RecalcBounds">
+      <summary>Instruct Chart FX to recalculate the bounds for an annotation polygon object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.Chart">
+      <summary>Gets or sets the Chart object for the Annotations object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.Commands">
+      <summary>Gets the list of commands associated with the Annotation Extension.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.DefaultBorderColor">
+      <summary>Used to set the border color for annotation objects created using the annotation toolbar.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.DefaultFillColor">
+      <summary>Used to set the fill color for annotation objects created using the annotation toolbar.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.EnableUI">
+      <summary>Used to allow/prevent the user from interacting with objects you add programmatically.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.EnableViewState">
+      <summary>Gets or sets a value indicating whether the server object persists its view state.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.IsDirty">
+      <summary>Returns a boolean specifying if the annotation extension object has been modified.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.List">
+      <summary>Allows you to access the CollectionBase members used modify the annotation list.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.NewObjectType">
+      <summary>Allows you to select the type of the object to be created by the next mouse or keyboard input.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.SelectionList">
+      <summary>Allows you to set attributes directly to a selected list of annotation objects.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.Annotations.ToolBar">
+      <summary>Used to show and hide the annotation toolbar in the chart area.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.Annotations.HitTest(System.Int32,System.Int32)">
+      <summary>Allows you to simulate a mouse click in a particular x,y position in the chart.</summary>
+      <param name="x">The x position in chart coordinates. (pixel value)</param>
+      <param name="y">The y position in chart coordinates. (pixel value)</param>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.InternalCommand">
+      <summary>Occurs when the one of the Annotation Extensions internal commands is executed.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.MouseDown">
+      <summary>Occurs when the Annotation Extension has been added to the chart and a mouse button is pressed.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.MouseMove">
+      <summary>Occurs when the Annotation Extension has been added to the chart and the mouse cursor is moved over the chart.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.MouseUp">
+      <summary>Occurs when the Annotation Extension has been added to the chart and a mouse button is released.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.ObjectCreated">
+      <summary>Occurs when an Annotation object is created.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.SelectionChanged">
+      <summary>Occurs when a selected Annotation object or group is modified.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.SelectionDeleted">
+      <summary>Occurs when a selected Annotation object or group is deleted.</summary>
+    </member>
+    <member name="E:ChartFX.WinForms.Annotation.Annotations.UserCommand">
+      <summary>Occurs when the one of the Annotation Extensions user commands is executed.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.Align">
+      <summary>Allows you to set the alignment for the selected annotation text object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.Clip">
+      <summary>Gets or sets a value indicating whether or not text will be clipped by the border of an AnnotationText.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.Font">
+      <summary>Allows you to change the font attributes for an annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.LineAlignment">
+      <summary>Sets the vertical alignment for the lines of an annotation text object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.Orientation">
+      <summary>Used to set the text orientation for a annotation text object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.Text">
+      <summary>Used to set the text for an annotation text object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.TextColor">
+      <summary>Sets the color of the text for an annotation object.</summary>
+    </member>
+    <member name="P:ChartFX.WinForms.Annotation.AnnotationText.WordWrap">
+      <summary>Gets or sets a value indicating whether the text of an annotation text object will be word wrapped.</summary>
+    </member>
+    <member name="M:ChartFX.WinForms.Annotation.AnnotationText.SizeToFit">
+      <summary>Instructs Chart FX to resize a selected annotation text object to fit the configured text string.</summary>
+    </member>
+  </members>
+</doc>
